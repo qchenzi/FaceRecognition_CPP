@@ -9,6 +9,6 @@ cuda 10.0
 cudnn
 
 主要代码文件为
-FR.CPP
-/faceRecLib/faceRec.cpp
-/faceRecLib/faceRec.h
+FR.cpp;
+/faceRecLib/faceRec.cpp;
+/faceRecLib/faceRec.h;
