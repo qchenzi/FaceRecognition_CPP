@@ -1,0 +1,97 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3017e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3017e.dir/build.make CMakeFiles/cmTC_3017e.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3017e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3017e.dir/CheckSymbolExists.c.o   -c /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3017e
+/home/chenzl/chenzl/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3017e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3017e.dir/CheckSymbolExists.c.o  -o cmTC_3017e 
+CMakeFiles/cmTC_3017e.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3017e.dir/build.make:97: recipe for target 'cmTC_3017e' failed
+make[1]: *** [cmTC_3017e] Error 1
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3017e/fast' failed
+make: *** [cmTC_3017e/fast] Error 2
+
+File /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cb769/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb769.dir/build.make CMakeFiles/cmTC_cb769.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb769.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cb769.dir/CheckFunctionExists.c.o   -c /home/chenzl/chenzl/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cb769
+/home/chenzl/chenzl/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb769.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cb769.dir/CheckFunctionExists.c.o  -o cmTC_cb769 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cb769.dir/build.make:97: recipe for target 'cmTC_cb769' failed
+make[1]: *** [cmTC_cb769] Error 1
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cb769/fast' failed
+make: *** [cmTC_cb769/fast] Error 2
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c9d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4c9d7.dir/build.make CMakeFiles/cmTC_4c9d7.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c9d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv   -o CMakeFiles/cmTC_4c9d7.dir/CheckFunctionExists.c.o   -c /home/chenzl/chenzl/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c9d7
+/home/chenzl/chenzl/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c9d7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv    -rdynamic CMakeFiles/cmTC_4c9d7.dir/CheckFunctionExists.c.o  -o cmTC_4c9d7 
+CMakeFiles/cmTC_4c9d7.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x10)：对‘sgesv’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4c9d7.dir/build.make:97: recipe for target 'cmTC_4c9d7' failed
+make[1]: *** [cmTC_4c9d7] Error 1
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4c9d7/fast' failed
+make: *** [cmTC_4c9d7/fast] Error 2
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90bd9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90bd9.dir/build.make CMakeFiles/cmTC_90bd9.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90bd9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_   -o CMakeFiles/cmTC_90bd9.dir/CheckFunctionExists.c.o   -c /home/chenzl/chenzl/clion-2018.1.1/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_90bd9
+/home/chenzl/chenzl/clion-2018.1.1/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90bd9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_    -rdynamic CMakeFiles/cmTC_90bd9.dir/CheckFunctionExists.c.o  -o cmTC_90bd9 
+CMakeFiles/cmTC_90bd9.dir/CheckFunctionExists.c.o：在函数‘main’中：
+CheckFunctionExists.c:(.text+0x10)：对‘sgesv_’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_90bd9.dir/build.make:97: recipe for target 'cmTC_90bd9' failed
+make[1]: *** [cmTC_90bd9] Error 1
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_90bd9/fast' failed
+make: *** [cmTC_90bd9/fast] Error 2
+
+

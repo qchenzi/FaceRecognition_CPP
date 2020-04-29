@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/libpng_test.dir/libpng_test.cpp.o  -o libpng_test -rdynamic /home/chenzl/Anaconda3/lib/libpng.so /home/chenzl/Anaconda3/lib/libz.so -Wl,-rpath,/home/chenzl/Anaconda3/lib 

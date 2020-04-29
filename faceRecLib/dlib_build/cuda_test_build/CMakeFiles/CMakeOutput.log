@@ -1,0 +1,28 @@
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19248/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19248.dir/build.make CMakeFiles/cmTC_19248.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19248.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -fPIC    -o CMakeFiles/cmTC_19248.dir/CheckIncludeFile.c.o   -c /home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_19248
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19248.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC     CMakeFiles/cmTC_19248.dir/CheckIncludeFile.c.o  -o cmTC_19248 -rdynamic 
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fbd8a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fbd8a.dir/build.make CMakeFiles/cmTC_fbd8a.dir/build
+make[1]: Entering directory '/home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbd8a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fbd8a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbd8a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbd8a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_fbd8a.dir/CheckFunctionExists.c.o  -o cmTC_fbd8a -rdynamic -lpthread 
+make[1]: Leaving directory '/home/chenzl/chenzl/C++/faceRecognition_V2/faceRecLib/dlib_build/cuda_test_build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,7 @@
+普通编译链接，不用cmake
+编译第三方动态库文件:
+g++ -shared -fPIC -o  libmylib_add.so  add.cpp
+调用第三方动态库:
+g++ test.cpp -o demo -l mylib_add（动态库名字） (动态库地址）
+1)如何写第三方库以及cmake编译第三方库,有静态成员以及普通成员
+2)cmake的写法，以及注意的参数如 -fPIC,动态库的生成，以及动态库的调用
