@@ -12,3 +12,5 @@ cudnn
 FR.cpp;
 /faceRecLib/faceRec.cpp;
 /faceRecLib/faceRec.h;
+
+外设为萤石摄像头C6C
